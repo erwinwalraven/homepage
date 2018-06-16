@@ -1,0 +1,154 @@
+/* Space out content a bit */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.iconcolor {
+  color: #2f78b7;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.navbuttons {
+  padding-top:5px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.projectthumb {
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+
+.projecttext {
+  text-align: justify;
+}
+
+.tulogo {
+  margin-top: -10px;
+}
+
+.copyright {
+  font-size: 11px;
+}
+
+.list-group-item-text{
+  color: #635d5d;
+}
+
+a.anchor{
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}
+
+#texthidden {
+  display: none;
+}
+
+.toptext {
+  margin-top: 20px;
+}
+
+.tooltip-inner {
+  white-space: pre-wrap;
+}
+
+#featurelist li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.bulletlist li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.tab-pane {
+  margin-top: 8px;
+}
+
+.downloadicon {
+  margin-right:-5px;
+  margin-left: 8px;
+}
+
+h4 {
+  padding-top: 8px;
+}
+
+#downloadbuttons {
+  margin-bottom: 12px;
+}
